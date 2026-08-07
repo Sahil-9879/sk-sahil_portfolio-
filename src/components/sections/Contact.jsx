@@ -3,13 +3,14 @@ import {
   FileText,
   MapPin,
 } from 'lucide-react';
-import { GithubIcon, LinkedinIcon } from '../icons/BrandIcons';
+import { GithubIcon, LinkedinIcon, LeetCodeIcon } from '../icons/BrandIcons';
 import { CONTACT_LINKS } from '../../constants/data';
 
 const ICON_MAP = {
   Mail,
   Github: GithubIcon,
   Linkedin: LinkedinIcon,
+  LeetCode: LeetCodeIcon,
   FileText,
   MapPin,
 };

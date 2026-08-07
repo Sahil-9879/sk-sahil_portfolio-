@@ -4,47 +4,48 @@
  */
 
 export const PERSONAL = {
-  name: 'Kalu',
-  role: 'Backend Developer & Cybersecurity Enthusiast',
+  name: 'Sk Sahil',
+  role: 'Tech & Cybersecurity Enthusiast',
   college: 'B.Tech Computer Science',
   location: 'India',
-  email: 'kalu@example.com',
-  github: 'https://github.com/kalu',
-  linkedin: 'https://linkedin.com/in/kalu',
+  email: 'sksahil01018@gmail.com',
+  github: 'https://github.com/Sahil-9879',
+  linkedin: 'https://www.linkedin.com/in/sk-sahil-061a5a373/',
+  leetcode: 'https://leetcode.com/u/sahil_0205/',
   resume: '/resume.pdf',
   avatar: null, // Replace with your image path
   intro:
-    'Computer Science student passionate about building robust backend systems and exploring cybersecurity. I write clean, maintainable code and believe in engineering software that scales.',
+    'Computer Science student passionate about exploring cybersecurity and building new projects. I write clean, maintainable code and believe in engineering software that scales.',
 };
 
 export const ABOUT = {
   bio: [
-    'I am a Computer Science undergraduate with a deep interest in backend engineering and cybersecurity. My journey started with writing simple Python scripts and evolved into building distributed systems, securing networks, and contributing to open-source projects.',
-    'I focus on writing production-grade code — clean architecture, proper error handling, and comprehensive testing are non-negotiable. I believe the best software is built with discipline, not just talent.',
-    'When I am not coding, you will find me reading RFCs, experimenting with CTF challenges, or setting up homelabs to test infrastructure configurations.',
+    'I am a Computer Science undergraduate with a deep interest in coding and cybersecurity. My journey started with writing simple Python scripts and doing small Java projects and evolved into building different data visualisation dashboards, a small Java bug finder, and a to-do list, and contributing to open-source projects.',
+    'I focus on writing production-grade code — clean architecture, proper error handling, and comprehensive testing are non-negotiable. I believe the best software is built with discipline and no-negotiating focus.',
+    'When I am not coding, you will find me reading books or most probably getting engaged in some physical work as I believe being fit and enjoying your hobbies make you even more productive in the work that needs to be done.',
   ],
   education: [
     {
       degree: 'B.Tech in Computer Science & Engineering',
       institution: 'University Name',
-      period: '2022 — 2026',
+      period: '2022 — 2026 (Graduating Year: 2028)',
       description:
-        'Specializing in backend systems, distributed computing, and information security.',
+        'B.Tech in Computer Science (Core). Domain: Cybersecurity.',
     },
     {
-      degree: 'Higher Secondary (XII)',
-      institution: 'School Name',
-      period: '2020 — 2022',
-      description: 'Science stream with Computer Science. Scored 92%.',
+      degree: 'X & XII',
+      institution: 'Kendriya Vidyalaya NTPC Kaniha',
+      period: '2012 — 2024',
+      description: 'Science stream with Computer Science.',
     },
   ],
   interests: [
-    'Distributed Systems',
+    'Development',
     'Network Security',
     'Operating Systems',
-    'Open Source',
-    'CTF Competitions',
-    'System Design',
+    'Red Teaming',
+    'CTF / Hackathons',
+    'Competitive Coding',
   ],
 };
 
@@ -100,23 +101,22 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = {
-  Languages: ['Java', 'Python', 'C', 'Go', 'JavaScript', 'SQL', 'Bash'],
+  Languages: ['Java', 'Python', 'C', 'SQL', 'Bash'],
   Frameworks: [
-    'Spring Boot',
-    'Express.js',
-    'Flask',
-    'React',
+    'ROS',
+    'Streamlit',
+    'Panel',
     'Tailwind CSS',
   ],
   'Tools & Platforms': [
-    'Docker',
+    'LeetCode',
+    'VS Code',
+    'Kaggle',
     'Git',
     'Linux',
-    'Nginx',
-    'Jenkins',
     'AWS',
   ],
-  'Databases': ['PostgreSQL', 'MongoDB', 'Redis', 'Elasticsearch'],
+  'Databases': ['MySQL'],
   'Security & Networking': [
     'Wireshark',
     'Burp Suite',
@@ -126,11 +126,10 @@ export const SKILLS = {
     'REST API',
   ],
   Concepts: [
+    'OOPs',
+    'DBMS',
+    'OS',
     'System Design',
-    'Microservices',
-    'CI/CD',
-    'Cryptography',
-    'OAuth 2.0',
     'Networking',
   ],
 };
@@ -138,21 +137,27 @@ export const SKILLS = {
 export const CONTACT_LINKS = [
   {
     label: 'Email',
-    value: 'kalu@example.com',
-    href: 'mailto:kalu@example.com',
+    value: 'sksahil01018@gmail.com',
+    href: 'mailto:sksahil01018@gmail.com',
     icon: 'Mail',
   },
   {
     label: 'GitHub',
-    value: 'github.com/kalu',
-    href: 'https://github.com/kalu',
+    value: 'github.com/Sahil-9879',
+    href: 'https://github.com/Sahil-9879',
     icon: 'Github',
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/kalu',
-    href: 'https://linkedin.com/in/kalu',
+    value: 'sk-sahil-061a5a373',
+    href: 'https://www.linkedin.com/in/sk-sahil-061a5a373/',
     icon: 'Linkedin',
+  },
+  {
+    label: 'LeetCode',
+    value: 'sahil_0205',
+    href: 'https://leetcode.com/u/sahil_0205/',
+    icon: 'LeetCode',
   },
   {
     label: 'Resume',
