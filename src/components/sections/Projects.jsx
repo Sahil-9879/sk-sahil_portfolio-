@@ -1,5 +1,4 @@
-import { ExternalLink } from 'lucide-react';
-import { GithubIcon } from '../icons/BrandIcons';
+import { GithubIcon, VercelIcon } from '../icons/BrandIcons';
 import { PROJECTS } from '../../constants/data';
 
 /**
@@ -37,26 +36,28 @@ export default function Projects() {
 
             {/* Action buttons */}
             <div className="mt-4 flex items-center gap-3">
-              <a
-                href={project.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs text-text-secondary hover:text-accent transition-colors duration-200"
-                aria-label={`View ${project.name} on GitHub`}
-              >
-                <GithubIcon size={14} />
-                Source
-              </a>
+              {project.github && (
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded border border-border bg-bg-primary px-2.5 py-1 text-xs text-text-secondary hover:border-accent hover:text-accent transition-all duration-200"
+                  aria-label={`View ${project.name} on GitHub`}
+                >
+                  <GithubIcon size={12} />
+                  <span>GitHub</span>
+                </a>
+              )}
               {project.demo && (
                 <a
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs text-text-secondary hover:text-accent transition-colors duration-200"
-                  aria-label={`View ${project.name} live demo`}
+                  className="inline-flex items-center gap-1.5 rounded border border-border bg-bg-primary px-2.5 py-1 text-xs text-text-secondary hover:border-accent hover:text-accent transition-all duration-200"
+                  aria-label={`View ${project.name} live on Vercel`}
                 >
-                  <ExternalLink size={14} />
-                  Live Demo
+                  <VercelIcon size={12} />
+                  <span>Vercel</span>
                 </a>
               )}
             </div>

@@ -50,3 +50,19 @@ export function LeetCodeIcon({ size = 24, className = '' }) {
     </svg>
   );
 }
+
+export function VercelIcon({ size = 24, className = '' }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      aria-hidden="true"
+    >
+      <path d="M24 22.525H0l12-21.05 12 21.05z" />
+    </svg>
+  );
+}

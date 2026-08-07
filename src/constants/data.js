@@ -51,52 +51,12 @@ export const ABOUT = {
 
 export const PROJECTS = [
   {
-    name: 'SecureVault',
+    name: 'Sk Sahil — Developer Portfolio',
     description:
-      'End-to-end encrypted file storage system with zero-knowledge architecture. Built with AES-256 encryption, secure key derivation, and a RESTful API backend.',
-    tech: ['Java', 'Spring Boot', 'PostgreSQL', 'Docker', 'AES-256'],
-    github: 'https://github.com/kalu/securevault',
-    demo: null,
-  },
-  {
-    name: 'NetSentinel',
-    description:
-      'Real-time network intrusion detection system that monitors traffic patterns, detects anomalies using ML models, and generates alerts.',
-    tech: ['Python', 'Scapy', 'TensorFlow', 'Redis', 'Docker'],
-    github: 'https://github.com/kalu/netsentinel',
-    demo: null,
-  },
-  {
-    name: 'TaskForge API',
-    description:
-      'Production-grade task management REST API with JWT authentication, role-based access control, rate limiting, and comprehensive test coverage.',
-    tech: ['Node.js', 'Express', 'MongoDB', 'Redis', 'Jest'],
-    github: 'https://github.com/kalu/taskforge-api',
-    demo: 'https://taskforge-api.example.com',
-  },
-  {
-    name: 'PacketSniffer',
-    description:
-      'Low-level network packet analyzer built from scratch. Captures, parses, and visualizes TCP/UDP/ICMP packets with filtering capabilities.',
-    tech: ['C', 'Linux', 'Sockets', 'ncurses'],
-    github: 'https://github.com/kalu/packetsniffer',
-    demo: null,
-  },
-  {
-    name: 'AuthShield',
-    description:
-      'Authentication microservice implementing OAuth 2.0, TOTP-based 2FA, and session management with secure cookie handling.',
-    tech: ['Go', 'PostgreSQL', 'Redis', 'gRPC', 'Docker'],
-    github: 'https://github.com/kalu/authshield',
-    demo: null,
-  },
-  {
-    name: 'LogStream',
-    description:
-      'Centralized log aggregation pipeline that collects, processes, and indexes logs from distributed services with real-time search.',
-    tech: ['Python', 'Kafka', 'Elasticsearch', 'Docker', 'Grafana'],
-    github: 'https://github.com/kalu/logstream',
-    demo: null,
+      'Engineer-focused, responsive portfolio application featuring expanding horizontal tab navigation, Linux-style interactive modal terminal, dark theme, and single accent palette.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
+    github: 'https://github.com/Sahil-9879',
+    demo: 'https://vercel.com',
   },
 ];
 
