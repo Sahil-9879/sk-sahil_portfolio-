@@ -47,6 +47,7 @@ export default function Profile() {
           <div className="mt-6 flex flex-wrap justify-center gap-3 md:justify-start">
             <a
               href={PERSONAL.resume}
+              download="Sk_Sahil_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded border border-accent bg-accent/10 px-4 py-2 text-sm font-medium text-accent hover:bg-accent/20 transition-colors duration-200"

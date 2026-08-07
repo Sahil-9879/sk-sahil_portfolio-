@@ -70,6 +70,7 @@ export default function Navbar({ activeSection, onNavigate, onTerminalToggle }) 
           {/* External Links */}
           <a
             href={PERSONAL.resume}
+            download="Sk_Sahil_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-200"
@@ -135,6 +136,7 @@ export default function Navbar({ activeSection, onNavigate, onTerminalToggle }) 
             <hr className="border-border" />
             <a
               href={PERSONAL.resume}
+              download="Sk_Sahil_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-text-secondary hover:text-text-primary transition-colors"

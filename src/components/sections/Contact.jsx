@@ -57,6 +57,7 @@ export default function Contact() {
               <a
                 key={link.label}
                 href={link.href}
+                download={link.label === 'Resume' ? 'Sk_Sahil_Resume.pdf' : undefined}
                 target={link.href.startsWith('mailto:') ? undefined : '_blank'}
                 rel="noopener noreferrer"
                 className={`${cardClasses} no-underline`}

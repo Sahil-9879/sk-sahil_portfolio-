@@ -49,10 +49,16 @@ export function useTerminal(onNavigate) {
       if (trimmed === 'resume') {
         newHistory.push({
           type: 'output',
-          content: 'Opening resume...',
+          content: 'Downloading resume (Sk_Sahil_Resume.pdf)...',
         });
         setHistory(newHistory);
-        window.open(PERSONAL.resume, '_blank');
+        const a = document.createElement('a');
+        a.href = PERSONAL.resume;
+        a.download = 'Sk_Sahil_Resume.pdf';
+        a.target = '_blank';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
       } else if (trimmed === 'github') {
         newHistory.push({
           type: 'output',
