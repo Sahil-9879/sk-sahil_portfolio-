@@ -59,6 +59,22 @@ export const PROJECTS = [
     demo: 'https://sk-sahil-portfolio.vercel.app/',
     docs: '/Sk_Sahil_Portfolio_Engineering_Guide.pdf',
   },
+  {
+    name: 'AgriBot — ROS Agricultural Autonomous Robot',
+    description:
+      'Autonomous farming and navigation mobile robot built with Robot Operating System (ROS), OpenCV vision processing, and sensor fusion for precision agricultural navigation and crop inspection.',
+    tech: ['ROS', 'Python', 'OpenCV', 'C++', 'Gazebo'],
+    github: 'https://github.com/Sahil-9879',
+    video: '/agribot_demo.mp4',
+  },
+  {
+    name: 'Adidas Interactive Sales Analytics Dashboard',
+    description:
+      'Executive-grade business intelligence sales analytics web application built with Streamlit, Pandas, and Plotly. Features multi-metric KPI tracking, regional sales heatmaps, profit margin analysis, and dynamic business insights.',
+    tech: ['Python', 'Streamlit', 'Pandas', 'Plotly', 'NumPy'],
+    github: 'https://github.com/Sahil-9879',
+    demo: 'https://sk-sahil-portfolio.vercel.app/',
+  },
 ];
 
 export const SKILLS = {
