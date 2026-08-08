@@ -56,7 +56,8 @@ export const PROJECTS = [
       'Engineer-focused, responsive portfolio application featuring expanding horizontal tab navigation, Linux-style interactive modal terminal, dark theme, and single accent palette.',
     tech: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion'],
     github: 'https://github.com/Sahil-9879',
-    demo: 'https://vercel.com',
+    demo: 'https://sk-sahil-portfolio.vercel.app/',
+    docs: '/Sk_Sahil_Portfolio_Engineering_Guide.pdf',
   },
 ];
 

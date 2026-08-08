@@ -1,9 +1,10 @@
+import { FileText } from 'lucide-react';
 import { GithubIcon, VercelIcon } from '../icons/BrandIcons';
 import { PROJECTS } from '../../constants/data';
 
 /**
  * Projects Section — Grid of project cards with hover effects.
- * Each card: name, description, tech tags, GitHub + Demo buttons.
+ * Each card: name, description, tech tags, GitHub + Vercel + Docs buttons.
  */
 export default function Projects() {
   return (
@@ -35,7 +36,7 @@ export default function Projects() {
             </div>
 
             {/* Action buttons */}
-            <div className="mt-4 flex items-center gap-3">
+            <div className="mt-4 flex flex-wrap items-center gap-3">
               {project.github && (
                 <a
                   href={project.github}
@@ -58,6 +59,19 @@ export default function Projects() {
                 >
                   <VercelIcon size={12} />
                   <span>Vercel</span>
+                </a>
+              )}
+              {project.docs && (
+                <a
+                  href={project.docs}
+                  download="Sk_Sahil_Portfolio_Engineering_Guide.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 rounded border border-border bg-bg-primary px-2.5 py-1 text-xs text-text-secondary hover:border-accent hover:text-accent transition-all duration-200"
+                  aria-label={`Download ${project.name} Engineering Guide PDF`}
+                >
+                  <FileText size={12} />
+                  <span>Guide PDF</span>
                 </a>
               )}
             </div>
